@@ -412,8 +412,8 @@ body {
     }
 
     .cardContainer {
-        max-height: unset;
-        overflow-y: unset;
+        max-height: calc(100vh-150px);
+        overflow-y: scroll;
         margin-bottom: 35vh;
     }
 
